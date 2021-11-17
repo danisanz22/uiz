@@ -26,7 +26,7 @@ app.set('view engine', 'ejs');
 
 // Redirect HTTP to HTTPS.
 // Don't redirect if the hostname is localhost:port (port=3000,5000)
-app.use(redirectToHTTPS([/localhost:(\d{4})/], [], 301));
+//app.use(redirectToHTTPS([/localhost:(\d{4})/], [], 301));
 
 
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
